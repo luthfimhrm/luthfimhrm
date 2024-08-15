@@ -1,0 +1,259 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.navigasi {
+    background-color: #536493;
+    width: 100%;
+    height: 70px;
+    color: rgb(255, 255, 255);
+}
+
+.logo {
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+}
+
+.menu {
+    margin-left: 800px;
+    padding-top: 27px;
+}
+
+.menu ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 50px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu ul li a:hover {
+    color: skyblue;
+    font-style: bold;
+}
+
+.banner {
+    background: linear-gradient(180deg, #536493, #f7f7F8);
+   background-size: 500px;
+    text-align: center;
+}
+
+.banner img{
+    border-radius: 300px;
+    height: 300px;
+    border: 6px #536493;
+    margin-top: 50px;
+}
+
+.banner h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #536493;
+}
+
+.banner h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 50px;
+    color: #536493;
+}
+
+.banner button{
+    margin-top: 5px;
+    margin-bottom: 100px;
+    padding: 10px;
+    width: 300px;
+    border-radius: 100px;
+    border: none;
+    font-size: larger;
+    color: #f7f7F8;
+    background-color: #536493;
+}
+
+.me {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    color: #536493;
+    text-align: center;
+    background-color: #f7f7F8;
+    padding: 70px;
+}
+
+.pendidikan {
+    background-color: #f7f7F8;
+}
+
+.pendidikan h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    color: #3d5ca4;
+    padding-top: 100px;
+}
+
+.pendidikan img{
+    height: 200px;
+    margin-top: 100px;
+    margin-left: 215px;
+}
+
+.educational{
+    background-color: #f7f7F8;
+}
+
+.educational ul li{
+    list-style: none;
+    display: inline-block;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    margin-left: 180px;
+    margin-top: 10px;
+    color: #536493;
+    font-weight: 600;
+}
+
+.hobbies {
+    background: linear-gradient(#f7f7F8, #536493);
+}
+
+.hobbies h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    color: #3d5ca4;
+    padding-top: 100px;
+}
+
+.hobbies img{
+    height: 200px;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.hobbies p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    color: #f7f7F8;
+    margin-left: 100px;
+    padding-right: 91px;
+    padding-top: 50px;
+    display: inline-block;
+}
+
+.skills {
+    background: linear-gradient(#536493, #f7f7F8);
+}
+
+.skills h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    color: #3d5ca4;
+    padding-top: 100px;
+}
+
+.skills p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    color: #536493;
+    text-align: center;
+    padding: 50px;
+}
+
+.contact{
+    background-color: #f7f7F8;
+}
+
+.contact h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    color: #3d5ca4;
+    padding-top: 100px;
+}
+
+.contact img{
+    height: 100px;
+    margin-top: 100px;
+    margin-left: 285px;
+}
+
+.contact ul li{
+    list-style: none;
+    display: inline-block;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    margin-left: 280px;
+    margin-top: 10px;
+    color: #536493;
+    font-weight: 600;
+    padding-right: 14px;
+    padding-bottom: 50px;
+}
+
+@media screen and (min-width: 476px) and (max-width: 1000px){
+    .menu{
+        margin-left: 530px;
+    }
+    .menu ul li{
+       display: inline-block;
+       margin-right: 10px;
+    }
+    .banner img{
+        margin-top: 100px;
+    }
+    .banner h1{
+        padding-top: 100px;
+    }
+    .banner h2{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .me{
+        padding-top: 100px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .pendidikan h2{
+        text-align: center;
+    }
+    .pendidikan img{
+        margin-left: 90px;
+        padding: 2px;
+    }
+    .educational ul li{
+        margin-left: 90px;
+        font-size: 20px;
+        padding-right: 20px;
+    }
+    .hobbies h1{
+        padding-top: 200px;
+    }
+    .hobbies img{
+        margin-left: 150px;
+        padding-right: 60px;
+    }
+    .hobbies p{
+        margin-left: 50px;
+        padding-right: 12px;
+    }
+    .skills h1{
+        padding-top: 200px;
+    }
+    .contact h1{
+        padding-top: 200px;
+    }
+    .contact img{
+        margin-left: 165px;
+    }
+    .contact ul li{
+        margin-left: 165px;
+    }
+}
